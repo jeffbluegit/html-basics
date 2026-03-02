@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 0, 0, 0.397);
+
+}
+h2{
+    text-align: center;
+    color: black;
+    background-color: white;    
+    font-weight: 300;
+    font-style: normal;
+
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.service{
+    background-color: greenyellow;
+    border: 1px; padding: 10px 30px;
+    flex: 1;
+    border-radius: 6px;
+    box-shadow: 5px 5px 6px mediumturquoise;
+    padding: 50px 30px;
+}
+/* responsiveness
+ */
+@media(max-width:768px){body{
+    background-color: violet;
+    }
+    #container{
+    flex-direction: column;
+    }
+    .service{padding: 20px 20px;
+
+    }
+    .service{margin: 10px; height: auto;
+    
+        
+    }
+}
+

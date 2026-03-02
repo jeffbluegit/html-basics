@@ -1,0 +1,115 @@
+body {background-color: rgba(82, 4, 4, 0.37);font-family: cursive;margin: 0;
+
+    
+}
+
+header {
+    background-color: rgb(66, 63, 58);margin: 0;
+    padding: 40px
+}
+
+ul  {
+    list-style-type: none;text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: lime ;
+    font-size: 22px;
+}
+
+ul li a:hover{
+    background-color: rgb(34, 32, 32);
+    color: rgb(219, 58, 112)
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+form{
+    width: 40%;  
+    margin: 10px auto ;
+    background-color: coral;
+    padding: 20px;
+    border: 2px solid powderblue;
+    border-radius: 9px;
+}
+
+label {
+    /* display: block; */
+}
+
+input, textarea, select{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+   
+    
+}
+
+button {
+    background-color: rgb(90, 90, 80);
+    width: 100%;
+    border: none;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button:hover{ 
+    background-color: blanchedalmond;
+    color: green
+}
+
+h3{
+    color: rgb(4, 61, 58);
+    text-align: center;
+}
+
+table{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border: 90%;
+}
+
+#student {
+    border: 1px solid red; 
+
+}
+
+th,td{
+    border: 1px solid   black;
+    text-align: left;
+
+}
+th{
+    color: white;
+    background-color: black ;
+}
+
+#serial{
+    background-color: burlywood;
+}
+.demlo{
+    color: blueviolet;
+}
+html{
+    scroll-behavior: smooth;
+}

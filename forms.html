@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="Static/CSS/style.CSS">
+</head>
+<body>
+    <header>
+        
+        <ul>
+            <li><a href="basics.html" target="_blank">Home</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="links.html">My Gallery</a></li>
+            <li><a href="lists.html">My lists</a></li>
+        </ul>
+    </header>
+    <h1 style="color: blue;">Registration Form</h1>
+    
+
+    <!--Form-->
+    <form>
+        <label for="fname">Full Name: </label>
+        <input type="text" id="fname" required placeholder="John Doe"> <br><br>
+        <label for="email">Email address: </label>
+        <input type="email" id="email" required placeholder="Enter your E-mail Address">  <br> <br>       
+        <label for="years age">Age</label>
+        <input type="number" id="years age"> <br> <br>
+        <label>Gender</label> <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender"> <br>.
+        <label for="fmale">Female</label>
+        <input type="radio" id="fmale" name="Gender"> <br> <br>
+        <label for="">course:</label>
+        <select name="" id="course">
+            <option value="MIT">Full Stack Development</option>
+            <option value="IA">AI</option>
+            <option value="CYBER">Cybersecurity</option>
+            <option value="DATA">Data Science</option>
+            <option value="NETICS">Cybernetics</option>
+        </select><br><br>
+
+        <label for="Terms and conditions">Agree Terms And conditions</label> <br>
+        <input type="checkbox" id="Terms and conditions" required> 
+        <label for="">Tell us about yourself</label>  <br>
+        <textarea name="" id="message" cols="50" rows="5"></textarea> <br>
+
+
+
+
+
+
+        <button type="submit">Submit Data </button><br><br>
+    </form>
+</body>
+</html>
