@@ -1,0 +1,40 @@
+body{
+    background-color: darkslategray;
+}
+h1{
+    color: blueviolet;
+    animation: spongebob 7s infinite;
+}
+#one{
+  /* animation-name: bells;
+    animation-duration: 5s;
+    animation-iteration-count: 5; */
+    animation: bells 3s infinite;  
+}
+#animate{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    animation: rotate 4s 5;
+}
+@keyframes bells{
+    0%{color: chocolate;}
+    25%{color: cornflowerblue;}
+    50%{color: darkkhaki;}
+    100%{color: darksalmon;}
+}
+@keyframes spongebob{
+    from{transform: translateX(0);color:  red;}
+    to{transform: translateX(800px);color: blueviolet;}
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);  
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360 deg);
+    }
+}
